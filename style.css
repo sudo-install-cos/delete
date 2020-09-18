@@ -1,0 +1,88 @@
+@font-face {
+	font-family: Calibri ;
+	src : Calibri%20Regular.ttf
+}
+
+body {
+	background-color: white;
+	color: black;
+    font-family: 'Hind', sans-serif;
+}
+
+
+
+
+
+
+.stylishBox {
+  background-color: grey;
+  color: white;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #F5FFFA;
+  border-radius: 20px;
+}
+
+.someSpacing {
+  padding: 10px;
+  margin-top: 30px;
+}
+
+
+nav {
+	width: 100%;
+	background-color: #0b98de;
+	overflow: hidden;
+}
+
+nav a {
+	display: block;
+	float: left;
+	font-family: sans-serif;
+	color: white;
+	font-size: 10px;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-decoration: none;
+
+}
+
+nav a:hover {
+	background-color: #176082;
+	color: black;
+}
+
+#logo {
+	 font-family: 'Hind', sans-serif;
+	 font-size: 40px;
+	 letter-spacing: -2px;
+	 text-shadow: 1px 1px 2px #c4c4c4;
+	 padding-left: 20px;
+	 padding-right: 40px;
+	 margin-right: 10px; 
+	 margin-top: -20px;  
+}
+
+
+
+
+
+<style>
+    #link_bar a { padding:20px; font-weight:bold; float: left; }
+    #link_bar a:link { color: white; background-color: blue; }
+    #link_bar a:visited { color: white; background-color: blue; }
+    #link_bar a:hover { color: black; background-color: blue; }
+    #link_bar a:active { color: white; background-color: blue; }
+</style>
+
+<style>
+    #links { padding:15px; font-weight:bold; float: left; }
+    #links :link { color: white; background-color: grey; }
+    #links :visited { color: white; background-color: grey; }
+    #links :hover { color: black; background-color: grey; }
+    #links :active { color: white; background-color: grey; }
+</style>
+
+
